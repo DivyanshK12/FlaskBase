@@ -3,7 +3,8 @@ This is a basic template for a flask app.
 
 # Initial Steps
 * Create a virtual environment using:
-``` python -m venv venv\
+``` 
+python -m venv venv\
 ```
 
 * In the environment install dependencies from requirements.txt
@@ -12,6 +13,9 @@ This is a basic template for a flask app.
 * python manage.py db init
 * python manage.py db migrate
 * python manage.py db upgrade
+
+* In the app/ folder create a static/ folder to house static files
+* Create images/ css/ and js/ subfolders
 
 # Important steps while deploying
 * In the migrations/ folder, put an empty .keep file in versions/ if initally there is no migration as the folder would then not be created
